@@ -1,0 +1,48 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for a blog",
+  "author": {
+    "name": "Sebastian Reihs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bastireihs/repo.git"
+  },
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy",
+    "format": "prettier --write .",
+    "generate": "strapi ts:generate-types"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "prettier": "^3.3.3",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@strapi/email": "^5.8.0",
+    "@strapi/plugin-cloud": "5.8.0",
+    "@strapi/plugin-users-permissions": "5.8.0",
+    "@strapi/strapi": "^5.8.0",
+    "better-sqlite3": "9.4.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "strapi": {
+    "uuid": "ca8b8cc2-e4fc-459e-b88f-425ff53fafea"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

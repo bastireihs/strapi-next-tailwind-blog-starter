@@ -1,0 +1,11 @@
+# Root-level ignores
+.DS_Store
+.idea/
+node_modules/
+.env
+
+# Include cms/.gitignore
+!cms/.gitignore
+
+# Include frontend/.gitignore
+!frontend/.gitignore
