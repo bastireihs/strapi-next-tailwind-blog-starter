@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bastireihs/repo.git"
+    "url": "https://github.com/bastireihs/strapi-next-tailwind-blog-starter.git"
   },
   "scripts": {
     "dev": "next dev",
