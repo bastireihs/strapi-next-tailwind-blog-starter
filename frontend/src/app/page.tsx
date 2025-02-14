@@ -1,3 +1,5 @@
+import { JSX } from 'react';
+
 import { CardVariant } from '@/lib/enums';
 import { ArticleService } from '@/lib/services';
 

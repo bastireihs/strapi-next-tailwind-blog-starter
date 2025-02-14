@@ -1,4 +1,4 @@
-'use server';
+'use client';
 import { GetStaticProps } from 'next';
 
 interface GlobalErrorProps {

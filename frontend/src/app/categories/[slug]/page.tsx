@@ -13,9 +13,8 @@ interface CategoryPageProps {
   params: { slug: string };
 }
 
-const CategoryPage: React.FC<CategoryPageProps> = async ({
-  params: { slug },
-}) => {
+const CategoryPage: React.FC<CategoryPageProps> = async ({ params }) => {
+  const { slug } = params;
   const categorySlug = slug as string;
 
   const fetchedArticles = await articleService.fetchArticles();

@@ -1,3 +1,5 @@
+import { JSX } from 'react';
+
 import { ArticleService } from '@/lib/services';
 
 import { ArticleCardList, ArticleHeader } from '@/components/Blog';
@@ -10,8 +12,9 @@ interface BlogPageProps {
 }
 
 export default async function BlogPage({
-  params: { slug },
+  params,
 }: BlogPageProps): Promise<JSX.Element> {
+  const { slug } = params;
   const article = await articleService.fetchArticleBySlug(slug);
   const recentArticles = (await articleService.fetchArticles()).slice(1, 5);
 

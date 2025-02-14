@@ -1,3 +1,5 @@
+import { JSX } from 'react';
+
 import { SectionHeader } from '@/components/Elements';
 
 export default async function About(): Promise<JSX.Element> {
